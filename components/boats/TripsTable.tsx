@@ -59,6 +59,13 @@ export default function TripsTable() {
     return charterMatches && itineraryMatches && statusMatches && dateMatches;
   });
 
+  // Define the status colors with proper type for TypeScript
+  const statusColors: Record<"green" | "blue" | "yellow", string> = {
+    green: "bg-green-500",
+    blue: "bg-[#26BDD8]", // Custom Aqua Blue (#26BDD8)
+    yellow: "bg-yellow-500",
+  };
+
   return (
     <div className="space-y-6">
       <h2 className="text-xl font-semibold">Trips</h2>
@@ -168,11 +175,9 @@ export default function TripsTable() {
               {filteredTrips.length > 0 ? (
                 filteredTrips.map((trip) => {
                   const { status, color } = getTripStatus(trip.date);
-                  const statusColors = {
-                    green: "bg-green-500",
-                    blue: "bg-[#26BDD8]", // Custom Aqua Blue (#26BDD8)
-                    yellow: "bg-yellow-500",
-                  };
+
+                  // Ensure color is of correct type and safely access statusColors
+                  const badgeColor = statusColors[color as keyof typeof statusColors] || "bg-gray-400";
 
                   return (
                     <TableRow key={trip.id}>
@@ -187,7 +192,7 @@ export default function TripsTable() {
                       </TableCell>
                       <TableCell className="text-left">
                         <Badge
-                          className={`${statusColors[color]} text-white px-3 py-1 rounded-full`}
+                          className={`${badgeColor} text-white px-3 py-1 rounded-full`}
                         >
                           {status}
                         </Badge>

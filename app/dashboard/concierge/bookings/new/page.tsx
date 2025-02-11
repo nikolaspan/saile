@@ -9,7 +9,7 @@ import { format } from "date-fns";
 
 // Import boat data from the JSON file and cast it to Boat[]
 import boatsData from "@/components/concierge/boats.json";
-const allBoats = boatsData.boats as Boat[];
+const allBoats = boatsData.boats as unknown as Boat[];
 
 export default function NewBookingPage() {
   const role = "Concierge";
