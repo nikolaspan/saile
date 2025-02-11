@@ -15,6 +15,7 @@ import { PlusCircle } from "lucide-react";
 import boatsData from "../boats.json";  // Importing boats data
 
 export default function BoatsPage() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const router = useRouter();
   const [isItineraryDialogOpen, setItineraryDialogOpen] = useState(false);
   const [isPriceDialogOpen, setPriceDialogOpen] = useState(false);
