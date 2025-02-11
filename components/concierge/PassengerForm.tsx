@@ -63,8 +63,9 @@ const PassengerForm: React.FC<PassengerFormProps> = ({
           {itineraryOptions.map((option) => (
             <div key={option.name} className="flex items-center space-x-2">
               <Checkbox
-                checked={selectedItinerary.some((item) => item.name === option.name)}
-                onCheckedChange={(checked) => onItineraryChange(option, checked as boolean)}
+                defaultChecked={selectedItinerary.some((item) => item.name === option.name)}
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                onCheckedChange={(checked: any) => onItineraryChange(option, Boolean(checked))}
               />
               <Label className="cursor-pointer">
                 {option.name} {option.price > 0 ? `($${option.price})` : "(Free)"}

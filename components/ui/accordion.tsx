@@ -2,9 +2,12 @@
 
 import * as React from 'react';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
-import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { ChevronDownIcon as RawChevronDownIcon } from '@radix-ui/react-icons';
 
 import { cn } from '@/lib/utils';
+
+// Cast the Radix icon to a React functional component type.
+const ChevronDownIcon = RawChevronDownIcon as unknown as React.FC<React.SVGProps<SVGSVGElement>>;
 
 const Accordion = AccordionPrimitive.Root;
 
