@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Sea Explorer",
+      "type": "Yacht",
+      "length": 50,
+      "capacity": 10
+    },
+    {
+      "id": 2,
+      "name": "Ocean Breeze",
+      "type": "Catamaran",
+      "length": 40,
+      "capacity": 8
+    }
+  ]
+  

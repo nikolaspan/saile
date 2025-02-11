@@ -1,0 +1,90 @@
+{
+    "boats": [
+      {
+        "boatId": "B-001",
+        "name": "Aegean Voyager",
+        "destinations": [
+          "Mykonos",
+          "Santorini",
+          "Crete",
+          "Rhodes",
+          "Corfu",
+          "Naxos",
+          "Paros",
+          "Zakynthos",
+          "Kos",
+          "Skiathos"
+        ],
+        "prices": {
+          "Mykonos": 5000,
+          "Santorini": 5500,
+          "Crete": 5200,
+          "Rhodes": 5300,
+          "Corfu": 5100,
+          "Naxos": 5400,
+          "Paros": 5600,
+          "Zakynthos": 5800,
+          "Kos": 5900,
+          "Skiathos": 6000
+        },
+        "capacity": 10,
+        "notAvailableDates": [
+          "2025-07-05"
+          
+        ],
+        "itinerary": [
+          { "name": "Wine Tasting", "price": 100 },
+          { "name": "Free Wi‑Fi", "price": 0 },
+          { "name": "Luxury Seating", "price": 150 },
+          { "name": "Gourmet Meals", "price": 200 },
+          { "name": "Sunset Views", "price": 50 },
+          { "name": "Live Music", "price": 75 },
+          { "name": "Outdoor Deck", "price": 0 },
+          { "name": "Spa Services", "price": 250 }
+        ]
+      },
+      {
+        "boatId": "B-002",
+        "name": "Cycladic Dream",
+        "destinations": [
+          "Mykonos",
+          "Santorini",
+          "Paros",
+          "Naxos",
+          "Ios",
+          "Syros",
+          "Tinos",
+          "Milos",
+          "Sifnos",
+          "Kea"
+        ],
+        "prices": {
+          "Mykonos": 6000,
+          "Santorini": 6500,
+          "Paros": 6200,
+          "Naxos": 6300,
+          "Ios": 6400,
+          "Syros": 6100,
+          "Tinos": 6150,
+          "Milos": 6250,
+          "Sifnos": 6350,
+          "Kea": 6450
+        },
+        "capacity": 15,
+        "notAvailableDates": [
+          "2025-07-06"
+        ],
+        "itinerary": [
+          { "name": "Champagne Reception", "price": 200 },
+          { "name": "High-Speed Internet", "price": 0 },
+          { "name": "Gourmet Snacks", "price": 50 },
+          { "name": "Panoramic Views", "price": 80 },
+          { "name": "DJ Music", "price": 120 },
+          { "name": "Sunset Cruise", "price": 180 },
+          { "name": "Helipad Access", "price": 300 },
+          { "name": "Onboard Entertainment", "price": 150 }
+        ]
+      }
+    ]
+  }
+  

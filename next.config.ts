@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
 
-const nextConfig: NextConfig = {
-  /* config options here */
+  images: { unoptimized: true },
+  trailingSlash: true,
 };
 
 export default nextConfig;

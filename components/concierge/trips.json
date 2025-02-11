@@ -1,0 +1,145 @@
+{
+    "trips": [
+      {
+        "tripId": "T-20240615-001",
+        "charterType": "Full Day",
+        "itineraryName": "Island Tour",
+        "revenue": 5000,
+        "date": "2024-06-15",
+        "roomId": "R-101",
+        "passengers": [
+          { "passengerId": "P-001", "name": "John Doe", "birthId": "BID12345" },
+          { "passengerId": "P-002", "name": "Jane Smith", "birthId": "BID67890" }
+        ]
+      },
+      {
+        "tripId": "T-20240618-002",
+        "charterType": "Half Day",
+        "itineraryName": "Sunset Cruise",
+        "revenue": 3000,
+        "date": "2024-06-18",
+        "roomId": "R-102",
+        "passengers": [
+          { "passengerId": "P-003", "name": "Alice Brown", "birthId": "BID54321" }
+        ]
+      },
+      {
+        "tripId": "T-20240701-003",
+        "charterType": "VIP Transfer",
+        "itineraryName": "Deep Sea Fishing",
+        "revenue": 7000,
+        "date": "2024-07-01",
+        "roomId": "R-103",
+        "passengers": [
+          { "passengerId": "P-004", "name": "Charlie Johnson", "birthId": "BID98765" },
+          { "passengerId": "P-005", "name": "Daniel Lee", "birthId": "BID19283" }
+        ]
+      },
+      {
+        "tripId": "T-20250310-004",
+        "charterType": "Full Day",
+        "itineraryName": "Coral Reef Adventure",
+        "revenue": 8000,
+        "date": "2025-03-10",
+        "roomId": "R-104",
+        "passengers": [
+          { "passengerId": "P-006", "name": "Sophia Wilson", "birthId": "BID34567" },
+          { "passengerId": "P-007", "name": "Michael Davis", "birthId": "BID65432" }
+        ]
+      },
+      {
+        "tripId": "T-20250522-005",
+        "charterType": "Half Day",
+        "itineraryName": "Bay Exploration",
+        "revenue": 4500,
+        "date": "2025-05-22",
+        "roomId": "R-105",
+        "passengers": [
+          { "passengerId": "P-008", "name": "Emma White", "birthId": "BID11223" }
+        ]
+      },
+      {
+        "tripId": "T-20250730-006",
+        "charterType": "VIP Transfer",
+        "itineraryName": "Island Hopping",
+        "revenue": 9000,
+        "date": "2025-07-30",
+        "roomId": "R-106",
+        "passengers": [
+          { "passengerId": "P-009", "name": "William Thompson", "birthId": "BID55678" },
+          { "passengerId": "P-010", "name": "Olivia Martin", "birthId": "BID66789" },
+          { "passengerId": "P-011", "name": "James Anderson", "birthId": "BID77890" }
+        ]
+      },
+      {
+        "tripId": "T-20250915-007",
+        "charterType": "Full Day",
+        "itineraryName": "Ocean Sunset",
+        "revenue": 6000,
+        "date": "2025-09-15",
+        "roomId": "R-107",
+        "passengers": [
+          { "passengerId": "P-012", "name": "Liam Harris", "birthId": "BID88991" }
+        ]
+      },
+      {
+        "tripId": "T-20251110-008",
+        "charterType": "Half Day",
+        "itineraryName": "Coastal Discovery",
+        "revenue": 3500,
+        "date": "2025-11-10",
+        "roomId": "R-108",
+        "passengers": [
+          { "passengerId": "P-013", "name": "Isabella Scott", "birthId": "BID99001" },
+          { "passengerId": "P-014", "name": "Ethan Robinson", "birthId": "BID00112" }
+        ]
+      },
+      {
+        "tripId": "T-20251201-009",
+        "charterType": "VIP Transfer",
+        "itineraryName": "Exclusive Yacht Experience",
+        "revenue": 12000,
+        "date": "2025-12-01",
+        "roomId": "R-109",
+        "passengers": [
+          { "passengerId": "P-015", "name": "Charlotte Clark", "birthId": "BID22334" }
+        ]
+      },
+      {
+        "tripId": "T-20251220-010",
+        "charterType": "Full Day",
+        "itineraryName": "Private Island Retreat",
+        "revenue": 15000,
+        "date": "2025-12-20",
+        "roomId": "R-110",
+        "passengers": [
+          { "passengerId": "P-016", "name": "Benjamin Young", "birthId": "BID33445" },
+          { "passengerId": "P-017", "name": "Amelia King", "birthId": "BID44556" }
+        ]
+      },
+      {
+        "tripId": "T-20250214-011",
+        "charterType": "VIP Transfer",
+        "itineraryName": "Luxury Sunset Cruise",
+        "revenue": 11000,
+        "date": "2025-02-14",
+        "roomId": "R-111",
+        "passengers": [
+          { "passengerId": "P-018", "name": "Henry Lee", "birthId": "BID55667" },
+          { "passengerId": "P-019", "name": "Mia Adams", "birthId": "BID66778" }
+        ]
+      },
+      {
+        "tripId": "T-20250110-012",
+        "charterType": "Half Day",
+        "itineraryName": "Lagoon Snorkeling",
+        "revenue": 4000,
+        "date": "2025-01-10",
+        "roomId": "R-112",
+        "passengers": [
+          { "passengerId": "P-020", "name": "Lucas Hall", "birthId": "BID77889" }
+        ]
+      }
+    ]
+  }
+  
